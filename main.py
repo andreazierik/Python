@@ -1,3 +1,4 @@
+
 import scripts.marcadagua
 import scripts.mesclar
 import scripts.dividir
@@ -24,7 +25,9 @@ while True:
     except:
         print("Caractere invalido!\n")
     if choice == 1:
-        print("Em desenvolvimento!\n")
+        import scripts.paratxt
+        import scripts.letxt
+        print("\n")
     elif choice == 2:
         print("Em desenvolvimento!\n")
     elif choice == 3:
@@ -42,4 +45,4 @@ while True:
         print("SAINDO!\n")
         break
     else:
-        print("ERRO: Escolha um número da lista a cima!\n")
+        print("ERRO: Escolha um número da lista a cima!")
