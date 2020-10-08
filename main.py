@@ -42,4 +42,4 @@ while True:
         print("SAINDO!\n")
         break
     else:
-        print("ERRO: Escolha um número da lista a cima!")
+        print("ERRO: Escolha um número da lista a cima!\n")
